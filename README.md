@@ -15,5 +15,5 @@ Unlike an attribute based model, this approach doesn't use any attribute informa
 
 In this repo we decompose the item-user-rating matrix into its constituent item and user matrix, which are latent representations of the interactions made by the users. We use these latent factor to build item-item similarity and recommend new books to a user.
 
-We see the t-SNE plots of the item features to understand how the books are represented in the feature space. Additionally we average out these features at author level and see if the similar authors are placed close by
+We see the t-SNE plots of the item features to understand how the books are represented in the feature space. Additionally we average out these features at author level and see if the similar authors are placed close by. Look out for `Chetan Bhagat` (-4.3, -0.39) in the graph, you'd be surprised by how many Indian authors are placed close by, without passing this information explicitly.
 
